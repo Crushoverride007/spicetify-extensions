@@ -1,12 +1,12 @@
-# Adblock
+# Writeify
 
-[Spicetify](https://github.com/khanhas/spicetify-cli) extension to block all audio ads and UI ads
+[Spicetify](https://github.com/khanhas/spicetify-cli) extension to take notes on different songs
 
-* Simply run the extension and it will work!
+* Right click any song or click it's note in the note column of the albums to write a note, remember to hit save!
 
 ## Install
 
-Copy `adblock.js` into your [Spicetify](https://github.com/khanhas/spicetify-cli) extensions directory:
+Copy `writeify.js` into your [Spicetify](https://github.com/khanhas/spicetify-cli) extensions directory:
 | **Platform**   | **Path**                                                                             |
 |----------------|--------------------------------------------------------------------------------------|
 | **Linux**      | `~/.config/spicetify/Extensions` or `$XDG_CONFIG_HOME/.config/spicetify/Extensions/` |
@@ -16,7 +16,7 @@ Copy `adblock.js` into your [Spicetify](https://github.com/khanhas/spicetify-cli
 After putting the extension file into the correct folder, run the following command to install the extension or install through marketplace:
 
 ```sh
-spicetify config extensions adblock.js
+spicetify config extensions writeify.js
 spicetify apply
 ```
 
@@ -28,7 +28,7 @@ Example:
 ```ini
 [AdditionalOptions]
 ...
-extensions = autoSkipExplicit.js|shuffle+.js|trashbin.js|adblock.js
+extensions = autoSkipExplicit.js|shuffle+.js|trashbin.js|writeify.js
 ```
 
 Then run:
@@ -41,7 +41,7 @@ spicetify apply
 
 Toggle in the Profile menu.
 
-![Screenshot](https://raw.githubusercontent.com/CharlieS1103/spicetify-extensions/main/adblock/adblock.png)
+![Screenshot](https://raw.githubusercontent.com/CharlieS1103/spicetify-extensions/main/writeify/writeify.png)
 
 ## More
 
